@@ -140,11 +140,12 @@ img {
 }
 
 .gallery-item {
-    position: relative;
-    flex: 1 0 22rem;
-    margin: 1rem;
-    color: #fff;
-    cursor: pointer;
+  position: relative;
+  // flex: 1 0 22rem;
+  flex: 1 0 22rem;
+  margin: 1rem;
+  color: #fff;
+  cursor: pointer;
 }
 
 .gallery-item:hover .gallery-item-info,

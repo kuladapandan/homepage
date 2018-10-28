@@ -7,7 +7,8 @@
     "serve-functions": "netlify-lambda serve --port 8081 functions-src",
     "build-functions": "netlify-lambda build functions-src",
     "serve": "npm run serve-functions | parcel index.html --port $PORT --log-level 3",
-    "prebuild": "rm -rf dist && cp -R ./assets ./dist",
+    "prebuild": "rm -rf dist",
+    "prebuild-keep": "rm -rf dist && cp -R ./assets ./dist",
     "build": "npm run build-functions | parcel build --no-content-hash index.html",
     "bundle-experiment": "node bundler.js"
   },
