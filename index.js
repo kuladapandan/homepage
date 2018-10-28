@@ -1,4 +1,4 @@
 (function(){
-  console.log('init newsite');
+  console.log('start');
   
 })();

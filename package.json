@@ -1,7 +1,7 @@
 {
   "name": "webpage",
   "version": "1.0.0",
-  "description": "Rika's Webpage",
+  "description": "homepage",
   "private": true,
   "scripts": {
     "serve-functions": "netlify-lambda serve --port 8081 functions-src",
@@ -11,16 +11,6 @@
     "build": "npm run build-functions | parcel build --no-content-hash index.html",
     "bundle-experiment": "node bundler.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rikasrihasut/webpage.git"
-  },
-  "author": "Rika Srihasut",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rikasrihasut/webpage/issues"
-  },
-  "homepage": "https://github.com/rikasrihasut/webpage#readme",
   "devDependencies": {
     "cssnano": "^4.1.7",
     "netlify-lambda": "^1.0.2",
